@@ -1,6 +1,6 @@
 # Labtic Wordpress Theme
 
-**Descripcion en español:**
+**Descripción en español:**
 
 Tema de wordpress personalizado para el laboratorio de hardware y software de la Universidad nacional de La Plata.
 
