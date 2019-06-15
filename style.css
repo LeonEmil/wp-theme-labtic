@@ -1,0 +1,96 @@
+        /* 
+        Theme name: Labtic
+        Theme URL: http://www.labtic.com
+        Description: Tema personalizado del laboratorio de hardware y software de la facultad de ingeniería de la Universidad Nacional de La Plata.
+        Version: 1.0.0
+        Author: Leon Emil
+        Author URL: http://www.leonemil.com
+        */
+        
+        /* Estilos personalizados / Custom styles */
+        
+        .logo {
+            width: 140px;
+            margin-bottom: 20px;
+        }
+
+        .titulosDePublicaciones{
+            font-size: 1.7em;
+        }
+
+        .titulosDelFooter{
+            font-size:0.5em;
+        }
+
+        .iconoRedesSociales{
+            color:white;
+        }
+        .iconoRedesSociales:hover{
+            color: gray;
+        }
+
+        .listaDeRedesSociales{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .titulosDelFooter{
+            font-size:1.4em;
+        }
+
+        .iconoRedesSociales{
+            color:white;
+            opacity: 0.8;
+        }
+        .iconoRedesSociales:hover{
+            color: white;
+            opacity: 1;
+        }
+
+        .logoDeSitiosRelacionados{
+            width: 50px;
+            margin: 10px;
+            opacity: 0.8;
+        }
+
+        .logoDeSitiosRelacionados:hover {
+            opacity: 1;
+        }
+
+        .descripcionLectorDePantalla {
+            border: 0;
+            clip: rect(0 0 0 0);
+            height: 1px;
+            margin: -1px;
+            overflow: hidden;
+            padding: 0;
+            position: absolute;
+            white-space: nowrap;
+            width: 1px;
+        }
+
+        .descripcionLectorDePantallaFocus:active,
+        .descripcionLectorDePantalla:focus {
+            clip: auto;
+            height: auto;
+            margin: 0;
+            overflow: visible;
+            position: static;
+            white-space: normal;
+            width: auto;
+        }
+
+        .video {
+            position:relative;
+            width:100%;
+            height:0;
+            padding-bottom:56%;
+        }
+        
+        .video iframe {
+            position:absolute;
+            left:0;
+            top:0;
+            width:100%;
+            height:100%;
+        }
