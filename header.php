@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/normalize.css">
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
     <title>Labtic</title>
+    <?php wp_head(); ?>
 </head>
 
 <body>
