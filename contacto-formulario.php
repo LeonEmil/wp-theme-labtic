@@ -1,4 +1,104 @@
-<!-- Pie de pagina / Footer page -->
+<!doctype html>
+<html lang="<?php bloginfo('languaje'); ?>">
+<head>
+            <meta charset="<?php bloginfo('charset'); ?>">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <meta name="description" content="<?php bloginfo('description'); ?>">
+    <link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/img/logo.ico" type="image/x-icon">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/boostrap/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/normalize.css">
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
+    <title>Labtic</title>
+    <?php wp_head(); ?>
+</head>
+
+<body>
+
+    <!-- Encabezado y menú de navegación / Header and navbar -->
+    <header class="container-fluid shadow p-3 mb-3 bg-white rounded">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <a href="index.html"><img class="logo float-left p-3" src="<?php bloginfo('template_url'); ?>/img/logo.png" alt="Logo de labtic"></a>
+                    <h1><strong>LabTIC&nbsp;-&nbsp;Unitec</strong></h1>
+                    <p class="text-secondary">Laboratorio de hardware y software de la facultad de ingeniería de la
+                        UNLP.</p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <nav class="navbar navbar-expand-lg">
+                        <ul class="nav nav-pills flex-nowrap">
+                            <li class="nav-item">
+                                <a href="<?php bloginfo('url'); ?>" class="nav-link active">
+                                    <i class="fa fa-fw fa-home fa-lg"></i>Inicio
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="<?php bloginfo('url'); ?>/mapa-del-sitio" class="nav-link">
+                                    <i class="fa fa-fw fa-globe fa-lg"></i>Mapa del sitio
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="<?php bloginfo('template_url'); ?>/contacto.html" class="nav-link">
+                                    <i class="fa fa-fw fa-lg -o fa-envelope"></i>Contacto
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Formulario de contacto / Form contact -->
+    <main class="container mt-5">
+        <h2 class="text-primary font-weight-bold pb-3">Contacto</h2>
+        <p>
+            En LabTIC tenemos las puertas abiertas a la comunidad para recibir todos aquellos comentarios, inquietudes,
+            consultas o
+            pedido de asesoramiento que sean necesarios.
+            <br>
+            <br>
+            A continuación ingrese sus datos en el siguiente formulario para realizar una consulta o solicitar
+            información. Le
+            responderemos a la mayor brevedad posible. No dudes en comunicarte también por nuestra vía telefónica al +54
+            221
+            422-7628 de lunes a viernes de 9 a 18 hs.
+        </p>
+        <form action="contacto.php" method="POST" class="border border-light p-5">
+            <div class="row">
+                <div class="col-lg-4">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" class="form-control mb-4" placeholder="Nombre" required>
+                </div>
+
+                <div class="col-lg-4">
+                    <label for="email">Dirección de E-mail:</label>
+                    <input type="email" id="email" class="form-control mb-4" placeholder="E-mail" requiered>
+                </div>
+
+                <div class="col-lg-4">
+                    <label for="telefono">Número de teléfono:</label>
+                    <input type="tel" id="telefono" class="form-control mb-4" placeholder="Teléfono">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="form-group">
+                        <label for="comentarios">Mensaje:</label>
+                        <textarea name="comentarios" class="form-control rounded-0" id="comentarios" rows="9"
+                            placeholder="Mensaje" required></textarea>
+                    </div>
+                    <button class="btn btn-info" type="submit">Enviar</button>
+                </div>
+            </div>
+        </form>
+        <a href="index.html">
+            <p class="text-primary mb-5"><i class="fa fa-w fa-home fa-lg"></i>Volver a la página de inicio</p>
+        </a>
+    </main>
+
+   <!-- Pie de pagina / Footer page -->
     <footer class="footer container-fluid bg-primary text-white mt-auto pt-5 pb-3">
         <div class="container">
             <div class="row">
