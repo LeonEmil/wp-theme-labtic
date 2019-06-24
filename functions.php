@@ -67,3 +67,5 @@ function widgets_activation()
 }
 
 add_action('widgets_init', 'widgets_activation');
+
+require get_parent_theme_file_path( '/inc/formulario.php');

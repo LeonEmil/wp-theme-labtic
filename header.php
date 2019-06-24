@@ -20,7 +20,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6">
-                    <a href="index.html"><img class="logo float-left p-3" src="<?php bloginfo('template_url'); ?>/img/logo.png" alt="Logo de labtic"></a>
+                    <a href="<?php bloginfo('url') ?>"><img class="logo float-left p-3" src="<?php bloginfo('template_url'); ?>/img/logo.png" alt="Logo de labtic"></a>
                     <h1><strong>LabTIC&nbsp;-&nbsp;Unitec</strong></h1>
                     <p class="text-secondary">Laboratorio de hardware y software de la facultad de ingeniería de la
                         UNLP.</p>
@@ -39,7 +39,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="<?php bloginfo('template_url'); ?>/contacto-formulario.php" class="nav-link">
+                                <a href="<?php bloginfo('url'); ?>/contacto" class="nav-link">
                                     <i class="fa fa-fw fa-lg -o fa-envelope"></i>Contacto
                                 </a>
                             </li>
